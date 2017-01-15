@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/alberto/SPI/SPI_tb_isim_beh.exe" -prj "/home/alberto/SPI/SPI_tb_beh.prj" "work.SPI_tb" 

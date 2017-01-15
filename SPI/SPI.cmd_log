@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/alberto/SPI/SPI.xst" -ofn "/home/alberto/SPI/SPI.syr" 
+xst -intstyle ise -ifn "/home/alberto/SPI/SPI.xst" -ofn "/home/alberto/SPI/SPI.syr" 

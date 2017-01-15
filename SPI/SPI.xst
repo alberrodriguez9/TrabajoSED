@@ -1,0 +1,5 @@
+set -tmpdir "/home/alberto/SPI/xst/projnav.tmp"
+set -xsthdpdir "/home/alberto/SPI/xst"
+elaborate
+-ifn SPI.prj
+-ifmt mixed

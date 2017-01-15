@@ -1,0 +1,9 @@
+V3 6
+FL /home/alberto/SPI/Bin2BCD.vhd 2017/01/14.12:36:08 P.20131013
+EN work/Bin2BCD 0 FL /home/alberto/SPI/Bin2BCD.vhd PB ieee/std_logic_1164 1381692176
+AR work/Bin2BCD/Behavioral 0 \
+      FL /home/alberto/SPI/Bin2BCD.vhd EN work/Bin2BCD 0
+FL /home/alberto/SPI/SPI.vhd 2017/01/14.13:24:27 P.20131013
+EN work/maq_estados 1484396674 FL /home/alberto/SPI/SPI.vhd PB ieee/std_logic_1164 1381692176
+AR work/maq_estados/Behavioral 1484396675 \
+      FL /home/alberto/SPI/SPI.vhd EN work/maq_estados 1484396674
