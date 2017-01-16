@@ -34,13 +34,28 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SPI.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SPI_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SPI_summary.html"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SPI_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SPI_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SPI_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SPI_tb_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SPI_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SPI_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_decoder_tb_vhd_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_decoder_tb_vhd_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_letter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder_letter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder_letter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_letter_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_letter_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decoder_letter_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_letter_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_unit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder_unit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder_unit.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_unit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_unit_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
@@ -65,48 +80,73 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1484396680" xil_pn:in_ck="-7730255944074033363" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1484396680">
+    <transform xil_pn:end_ts="1484573198" xil_pn:in_ck="2754694092019647435" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1484573198">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SPI.vhd"/>
       <outfile xil_pn:name="SPI_tb.vhd"/>
+      <outfile xil_pn:name="decoder.vhd"/>
+      <outfile xil_pn:name="decoder_leters.vhd"/>
+      <outfile xil_pn:name="decoder_letter_tb.vhd"/>
+      <outfile xil_pn:name="decoder_tb.vhd"/>
+      <outfile xil_pn:name="decoder_unit.vhd"/>
+      <outfile xil_pn:name="decoder_unit_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1484311630" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5253531057384056929" xil_pn:start_ts="1484311630">
+    <transform xil_pn:end_ts="1484572921" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5738859555300986214" xil_pn:start_ts="1484572921">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1484311630" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5661615725866038759" xil_pn:start_ts="1484311630">
+    <transform xil_pn:end_ts="1484572921" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7245870869625857618" xil_pn:start_ts="1484572921">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1484311371" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7066751802048329414" xil_pn:start_ts="1484311371">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1484396683" xil_pn:in_ck="-7730255944074033363" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1484396683">
+    <transform xil_pn:end_ts="1484572921" xil_pn:in_ck="2754694092019647435" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1484572921">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SPI.vhd"/>
       <outfile xil_pn:name="SPI_tb.vhd"/>
+      <outfile xil_pn:name="decoder.vhd"/>
+      <outfile xil_pn:name="decoder_leters.vhd"/>
+      <outfile xil_pn:name="decoder_letter_tb.vhd"/>
+      <outfile xil_pn:name="decoder_tb.vhd"/>
+      <outfile xil_pn:name="decoder_unit.vhd"/>
+      <outfile xil_pn:name="decoder_unit_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1484396687" xil_pn:in_ck="-7730255944074033363" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2902639764672067829" xil_pn:start_ts="1484396683">
+    <transform xil_pn:end_ts="1484572925" xil_pn:in_ck="2754694092019647435" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3427205021273233849" xil_pn:start_ts="1484572921">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SPI_tb_beh.prj"/>
-      <outfile xil_pn:name="SPI_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="decoder_letter_tb_beh.prj"/>
+      <outfile xil_pn:name="decoder_letter_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1484396688" xil_pn:in_ck="-589600429070076592" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4198227163338787880" xil_pn:start_ts="1484396687">
+    <transform xil_pn:end_ts="1484572925" xil_pn:in_ck="-8858058427248501737" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4333595544699247254" xil_pn:start_ts="1484572925">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SPI_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="decoder_letter_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

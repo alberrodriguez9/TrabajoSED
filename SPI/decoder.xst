@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/jorge/Desktop/TrabajoSED/SPI/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jorge/Desktop/TrabajoSED/SPI/xst"
+elaborate
+-ifn decoder.prj
+-ifmt mixed

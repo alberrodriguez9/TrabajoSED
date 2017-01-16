@@ -1,9 +1,33 @@
-V3 6
+V3 16
 FL /home/alberto/SPI/Bin2BCD.vhd 2017/01/14.12:36:08 P.20131013
 EN work/Bin2BCD 0 FL /home/alberto/SPI/Bin2BCD.vhd PB ieee/std_logic_1164 1381692176
 AR work/Bin2BCD/Behavioral 0 \
       FL /home/alberto/SPI/Bin2BCD.vhd EN work/Bin2BCD 0
 FL /home/alberto/SPI/SPI.vhd 2017/01/14.13:24:27 P.20131013
-EN work/maq_estados 1484396674 FL /home/alberto/SPI/SPI.vhd PB ieee/std_logic_1164 1381692176
-AR work/maq_estados/Behavioral 1484396675 \
-      FL /home/alberto/SPI/SPI.vhd EN work/maq_estados 1484396674
+FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder.vhd 2017/01/16.14:04:17 P.20131013
+EN work/decoder 1484571858 FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder/dataflow 1484571859 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder.vhd EN work/decoder 1484571858
+FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_leters.vhd 2017/01/16.14:03:22 P.20131013
+EN work/decoder_letter 1484571806 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_leters.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder_letter/dataflow 1484571807 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_leters.vhd \
+      EN work/decoder_letter 1484571806
+FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_unit.vhd 2017/01/16.14:25:28 P.20131013
+EN work/decoder_unit 1484573207 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder_unit/dataflow 1484573208 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_unit.vhd \
+      EN work/decoder_unit 1484573207
+FL C:/Users/jorge/Desktop/TrabajoSED/SPI/SPI.vhd 2017/01/16.12:41:33 P.20131013
+EN work/maq_estados 1484567835 FL C:/Users/jorge/Desktop/TrabajoSED/SPI/SPI.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maq_estados/Behavioral 1484567836 \
+      FL C:/Users/jorge/Desktop/TrabajoSED/SPI/SPI.vhd EN work/maq_estados 1484567835

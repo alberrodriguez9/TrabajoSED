@@ -1,0 +1,35 @@
+Command line:
+   decoder_letter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52240
+
+Mon Jan 16 14:22:07 2017
+
+
+ Elaboration Time: 0.21875 sec
+
+ Current Memory Usage: 1496.28 Meg
+
+ Total Signals          : 4
+ Total Nets             : 10
+ Total Signal Drivers   : 2
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 551
+Total Line Count : 8
+
+** Failure:Simulación finalizada. Test superado.
+User(VHDL) Code Called Simulation Stop
+In process decoder_letter_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 1496.28 Meg
+
+Mon Jan 16 14:22:32 2017
+

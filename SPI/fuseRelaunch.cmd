@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/alberto/SPI/SPI_tb_isim_beh.exe" -prj "/home/alberto/SPI/SPI_tb_beh.prj" "work.SPI_tb" 
+-intstyle "ise" -incremental -o "C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_letter_tb_isim_beh.exe" -prj "C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_letter_tb_beh.prj" "work.decoder_letter_tb" 

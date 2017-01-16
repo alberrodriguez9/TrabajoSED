@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-01-15T01:19:20</DateModified>
+  <DateModified>2017-01-16T12:53:21</DateModified>
   <ModuleName>maq_estados</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/alberto/SPI/iseconfig/maq_estados.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/alberto/SPI/</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/jorge/Desktop/TrabajoSED/SPI/iseconfig/maq_estados.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/jorge/Desktop/TrabajoSED/SPI\</ImplementationReportsDirectory>
   <DateInitialized>2017-01-13T15:37:38</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
