@@ -1,3 +1,9 @@
+EN decoder_unit NULL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_unit.vhd sub00/vhpl07 1484573207
+AR decoder_letter dataflow C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_leters.vhd sub00/vhpl06 1484571807
 EN bin2bcd NULL /home/alberto/SPI/Bin2BCD.vhd sub00/vhpl02 1484393829
-AR maq_estados behavioral /home/alberto/SPI/SPI.vhd sub00/vhpl01 1484396675
-EN maq_estados NULL /home/alberto/SPI/SPI.vhd sub00/vhpl00 1484396674
+AR maq_estados behavioral C:/Users/jorge/Desktop/TrabajoSED/SPI/SPI.vhd sub00/vhpl01 1484567836
+EN maq_estados NULL C:/Users/jorge/Desktop/TrabajoSED/SPI/SPI.vhd sub00/vhpl00 1484567835
+EN decoder_letter NULL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_leters.vhd sub00/vhpl05 1484571806
+AR decoder dataflow C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder.vhd sub00/vhpl04 1484571859
+AR decoder_unit dataflow C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder_unit.vhd sub00/vhpl08 1484573208
+EN decoder NULL C:/Users/jorge/Desktop/TrabajoSED/SPI/decoder.vhd sub00/vhpl03 1484571858
